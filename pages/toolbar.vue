@@ -1,6 +1,6 @@
 <template>
 <div>
-          <span class="display-1">Toolbar</span>
+          <span class="display-1">Toolbar kjshdlkgjhdskjg</span>
 
 
       <p>The Munis Toolbar is used to house actions for the current active application. It functions as a ribbon that attaches directly to the Omnibar and sits above all other content. It is used primarily in legacy applications, and should be avoided in future application designs.
