@@ -1,6 +1,6 @@
 <template>
 <div>
-          <span class="display-1">Chips</span>
+          <span class="display-1">Chips :LSJHFGLKJSHFGKJ</span>
       <p>Chips are compact elements that represent an input, attribute, or action.</p>
 
 <div class="spacer"></div><md-divider></md-divider><div class="spacer"></div>
