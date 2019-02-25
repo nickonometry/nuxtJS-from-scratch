@@ -38,15 +38,11 @@
     data() {
       return {
         drawer: false,
-        items: [{
-            icon: 'apps',
-            title: 'Welcome',
-            to: '/'
-          },
+        items: [
           {
-            icon: 'bubble_chart',
-            title: 'Inspire',
-            to: '/inspire'
+            icon: 'home',
+            title: 'Home',
+            to: '/'
           },
           {
             icon: 'bubble_chart',
