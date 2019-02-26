@@ -16,14 +16,19 @@ module.exports = {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
+    script: [
+      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
+      { src: '@/plugins/netlify-body-script.js' }
+    ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href:
           'https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons'
+          
       }
-    ]
+    ],
   },
 
   /*
@@ -42,14 +47,15 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    '@/plugins/vuetify',
+    '@/plugins/netlify-cms',
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
-    ['storyblok-nuxt', {accessToken: 'OVRXx0CWpyZ2alrpqtwRAQtt', cacheProvider: 'memory'}]
+
   ],
 
   /*
