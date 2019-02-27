@@ -17,8 +17,6 @@ module.exports = {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     script: [
-      { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' },
-      { src: '@/plugins/netlify-body-script.js' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -48,7 +46,6 @@ module.exports = {
   */
   plugins: [
     '@/plugins/vuetify',
-    '@/plugins/netlify-cms',
   ],
 
   /*
